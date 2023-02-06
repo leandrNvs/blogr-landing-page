@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | [Blogr]</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Assets/css/styles.css" />
+  </head>
+  <body>
+    <main class="main">
+      <section class="hero">
+        <header class="header">
+          <h1>
+            <img
+              src="Assets/images/logo.svg"
+              class="header__logo"
+              alt="blogr"
+            />
+          </h1>
+          <nav class="navbar">
+            <div class="dropdown">
+              <div class="dropdown__btn">
+                Product
+                <img
+                  src="Assets/images/icon-arrow-dark.svg"
+                  class="icon-dark"
+                  alt=""
+                />
+                <img
+                  src="Assets/images/icon-arrow-light.svg"
+                  class="icon-light"
+                  alt=""
+                />
+              </div>
+              <div class="dropdown__content">
+                <a href="#">Overview</a>
+                <a href="#">Pricing</a>
+                <a href="#">Marketplace</a>
+                <a href="#">Features</a>
+                <a href="#">Integrations</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <div class="dropdown__btn">
+                Company
+                <img
+                  src="Assets/images/icon-arrow-dark.svg"
+                  class="icon-dark"
+                  alt=""
+                />
+                <img
+                  src="Assets/images/icon-arrow-light.svg"
+                  class="icon-light"
+                  alt=""
+                />
+              </div>
+              <div class="dropdown__content">
+                <a href="#">About</a>
+                <a href="#">Team</a>
+                <a href="#">Blog</a>
+                <a href="#">Careers</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <div class="dropdown__btn">
+                Connect
+                <img
+                  src="Assets/images/icon-arrow-dark.svg"
+                  class="icon-dark"
+                  alt=""
+                />
+                <img
+                  src="Assets/images/icon-arrow-light.svg"
+                  class="icon-light"
+                  alt=""
+                />
+              </div>
+              <div class="dropdown__content">
+                <a href="#">Contact</a>
+                <a href="#">Newsletter</a>
+                <a href="#">LinkedIn</a>
+              </div>
+            </div>
+            <div class="navbar__user">
+              <a href="#">Login</a>
+              <a href="#">Sign Up</a>
+            </div>
+          </nav>
+          <button class="header__toggle-nav">
+            <img src="Assets/images/icon-hamburger.svg" alt="" />
+          </button>
+        </header>
+
+        <div class="hero__container">
+          <h2>
+            A modern<br />
+            publishing platform
+          </h2>
+          <p>Grow your audience and build your online brand</p>
+
+          <div>
+            <a href="#" class="primary">Start for Free</a>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Designed for the future</h2>
+
+        <div class="decoration">
+          <img src="Assets/images/illustration-editor-mobile.svg" alt="" />
+        </div>
+
+        <div class="section__container">
+          <h3>Introducing an extensible editor</h3>
+          <p>
+            Blogr features an exceedingly intuitive interface which lets you
+            focus on one thing: creating content. The editor supports management
+            of multiple blogs and allows easy manipulation of embeds such as
+            images, videos, and Markdown. Extensibility with plugins and themes
+            provide easy ways to add functionality or change the looks of a
+            blog.
+          </p>
+          <h3 class="mt">Robust content management</h3>
+          <p>
+            Flexible content management enables users to easily move through
+            posts. Increase the usability of your blog by adding customized
+            categories, sections, format, or flow. With this functionality,
+            you’re in full control.
+          </p>
+        </div>
+      </section>
+
+      <section class="cel">
+        <img src="Assets/images/illustration-phones.svg" alt="" />
+        <div>
+          <h2>State of the Art Infrastructure</h2>
+          <p>
+            With reliability and speed in mind, worldwide data centers provide
+            the backbone for ultra-fast connectivity. This ensures your site
+            will load instantly, no matter where your readers are, keeping your
+            site competitive.
+          </p>
+        </div>
+      </section>
+
+      <section class="section reverse">
+        <div class="decoration">
+          <img src="Assets/images/illustration-laptop-mobile.svg" alt="" />
+        </div>
+
+        <div class="section__container reverse">
+          <h3>Free, open, simple</h3>
+          <p>
+            Blogr is a free and open source application backed by a large
+            community of helpful developers. It supports features such as code
+            syntax highlighting, RSS feeds, social media integration,
+            third-party commenting tools, and works seamlessly with Google
+            Analytics. The architecture is clean and is relatively easy to
+            learn.
+          </p>
+          <h3 class="mt">Powerful tooling</h3>
+          <p>
+            Batteries included. We built a simple and straightforward CLI tool
+            that makes customization and deployment a breeze, but capable of
+            producing even the most complicated sites.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <img src="Assets/images/logo.svg" alt="" />
+      </div>
+      <div>
+        <h3>Product</h3>
+
+        <a href="#">Overview</a>
+        <a href="#">Pricing</a>
+        <a href="#">Marketplace</a>
+        <a href="#">Features</a>
+        <a href="#">Integrations</a>
+      </div>
+
+      <div>
+        <h3>Company</h3>
+        <a href="#">About</a>
+        <a href="#">Team</a>
+        <a href="#">Blog</a>
+        <a href="#">Careers</a>
+      </div>
+
+      <div>
+        <h3>Connect</h3>
+
+        <a href="#">Contact</a>
+        <a href="#">Newsletter</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </footer>
+
+    <script src="Assets/js/main.js"></script>
+  </body>
+</html>
