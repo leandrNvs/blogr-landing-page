@@ -302,16 +302,15 @@ body {
 .section__container {
   margin: 2rem 0;
   text-align: center;
+  transform: translateX(10vw);
 }
 @media (min-width: 900px) {
   .section__container {
     text-align: left;
     width: 600px;
-    margin-left: 10rem;
   }
   .section__container.reverse {
-    margin-left: 40rem;
-    width: 5 0px;
+    transform: translate(50vw);
   }
 }
 .section h2 {
